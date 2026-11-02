@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f3ef">
+  <meta name="description" content="준호와 유나의 결혼식에 초대합니다.">
+  <title>Jun & Yuna — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <!-- 메인 커버 -->
+    <section class="hero" aria-label="청첩장 메인">
+      <img class="hero-photo" src="images/hero.jpg" alt="웨딩드레스와 턱시도를 입은 신랑 신부">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">OUR WEDDING DAY</p>
+        <p class="script-title">You are<br>invited</p>
+        <p class="hero-korean">저희 두 사람,<br>결혼합니다.</p>
+        <span class="tiny-line"></span>
+        <p class="hero-date">2026. 11. 21. SAT</p>
+      </div>
+      <a class="scroll-cue" href="#invitation" aria-label="아래로 이동">↓</a>
+    </section>
+
+    <!-- 초대 인사말 -->
+    <section class="intro section-pad" id="invitation">
+      <span class="ornament">♡</span>
+      <p class="section-kicker">A NEW BEGINNING</p>
+      <h1>서로가 마주한 순간부터,<br>지금까지의 모든 순간이 행복이었듯<br>이제, 저희 두 사람의 새로운 시작을<br>함께해 주세요.</h1>
+      <p class="intro-sub">저희의 결혼식에 소중한 분들을 초대합니다.</p>
+      <p class="couple-sign">Jun &amp; Yuna</p>
+      <div class="family-line">
+        <span>김준호 · 박서연의 아들 <b>준호</b></span>
+        <span class="dot">|</span>
+        <span>이민수 · 최은정의 딸 <b>유나</b></span>
+      </div>
+    </section>
+
+    <!-- 웨딩 사진 갤러리: 사진을 누르면 확대됩니다 -->
+    <section class="gallery-section section-pad">
+      <div class="section-heading"><span>WEDDING GALLERY</span></div>
+      <div class="gallery-grid">
+        <button class="gallery-item tall" data-image="images/gallery-01.jpg" aria-label="웨딩 사진 1 크게 보기">
+          <img src="images/gallery-01.jpg" alt="부케를 들고 미소 짓는 신부">
+        </button>
+        <button class="gallery-item" data-image="images/gallery-02.jpg" aria-label="웨딩 사진 2 크게 보기">
+          <img src="images/gallery-02.jpg" alt="손을 맞잡은 신랑 신부">
+        </button>
+        <button class="gallery-item" data-image="images/gallery-03.jpg" aria-label="웨딩 사진 3 크게 보기">
+          <img src="images/gallery-03.jpg" alt="웨딩 부케와 드레스">
+        </button>
+        <button class="gallery-item wide" data-image="images/gallery-04.jpg" aria-label="웨딩 사진 4 크게 보기">
+          <img src="images/gallery-04.jpg" alt="서로를 바라보는 신랑 신부">
+        </button>
+      </div>
+      <p class="gallery-note">사진을 누르면 크게 보실 수 있습니다.</p>
+    </section>
+
+    <!-- 예식 정보 -->
+    <section class="info-section section-pad">
+      <div class="section-heading"><span>WEDDING INFORMATION</span></div>
+      <div class="info-card">
+        <div class="info-row">
+          <span class="info-icon">✧</span>
+          <div><p class="info-label">WEDDING DAY</p><h2>2026년 11월 21일 (토)</h2><p>오후 2시</p></div>
+        </div>
+        <div class="info-row">
+          <span class="info-icon">⌖</span>
+          <div><p class="info-label">WEDDING PLACE</p><h2>더컨벤션 웨딩홀</h2><p>서울시 강남구 테헤란로 123</p></div>
+        </div>
+      </div>
+      <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=%EB%8D%94%EC%BB%A8%EB%B2%A4%EC%85%98%20%EC%9B%A8%EB%94%A9%ED%99%80%20%EC%84%9C%EC%9A%B8%20%EA%B0%95%EB%82%A8%EA%B5%AC%20%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C%20123" target="_blank" rel="noopener">
+        <span>⌖</span> 지도 앱으로 보기 <span class="arrow">→</span>
+      </a>
+      <!-- 예시 장소를 표시하는 지도 미리보기 -->
+      <div class="map-preview">
+        <iframe title="예식장 위치 지도" loading="lazy"
+          src="https://maps.google.com/maps?q=%EB%8D%94%EC%BB%A8%EB%B2%A4%EC%85%98%20%EC%9B%A8%EB%94%A9%ED%99%80%20%EC%84%9C%EC%9A%B8%20%EA%B0%95%EB%82%A8%EA%B5%AC%20%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C%20123&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <p class="map-caption">※ 예식장명과 주소는 샘플 정보입니다. 실제 장소에 맞게 수정해 주세요.</p>
+    </section>
+
+    <!-- 마음 전하실 곳 -->
+    <section class="account-section section-pad">
+      <div class="section-heading"><span>WITH LOVE</span></div>
+      <h2 class="account-title">마음 전하실 곳</h2>
+      <p class="account-desc">축하해 주시는 마음을 소중히 간직하겠습니다.</p>
+      <div class="account-card">
+        <div class="bank-mark">⌂</div>
+        <div class="account-details">
+          <strong>신한은행</strong>
+          <span>110-123-456789</span>
+          <small>김준호 · 김유나</small>
+        </div>
+        <button class="copy-button" data-copy="110123456789" data-label="계좌번호">복사하기</button>
+      </div>
+      <div class="account-card">
+        <div class="bank-mark">⌂</div>
+        <div class="account-details">
+          <strong>카카오뱅크</strong>
+          <span>3333-12-1234567</span>
+          <small>유나</small>
+        </div>
+        <button class="copy-button" data-copy="3333121234567" data-label="계좌번호">복사하기</button>
+      </div>
+    </section>
+
+    <!-- 마지막 인사 -->
+    <footer class="footer section-pad">
+      <span class="ornament">♥</span>
+      <p>저희의 시작에 함께해 주셔서<br>진심으로 감사합니다.</p>
+      <p class="footer-names">JUN &amp; YUNA</p>
+      <small>2026. 11. 21. SAT · 2:00 PM</small>
+    </footer>
+  </main>
+
+  <!-- 사진 확대 팝업 -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="웨딩 사진 확대" aria-hidden="true">
+    <button class="modal-close" id="lightboxClose" aria-label="닫기">×</button>
+    <button class="lightbox-prev" id="prevPhoto" aria-label="이전 사진">‹</button>
+    <img id="lightboxImage" src="" alt="확대된 웨딩 사진">
+    <button class="lightbox-next" id="nextPhoto" aria-label="다음 사진">›</button>
+  </div>
+
+  <!-- 복사 완료 안내 팝업 -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span class="toast-check">✓</span>
+    <span id="toastMessage">복사되었습니다.</span>
+    <button id="toastClose" aria-label="알림 닫기">×</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
